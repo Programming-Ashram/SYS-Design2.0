@@ -6,18 +6,168 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SYS Design System</title>
     <link rel="stylesheet" href="css/style.css">  
-
+    <link rel="stylesheet" href="https://programming-ashram.github.io/sys-design-system/css/style.css">
+    <style>
+        .d-flex{
+            display: flex;
+            gap: 0px 20px;
+        }
+        .align-i-center{
+            align-items: center;
+        }
+        .justify-c-between{
+            justify-content: space-between;
+        }
+        .justify-c-center{
+            justify-content: center;
+        }
+        .customIcon{
+            width: 20px;
+        }
+        header{
+            width: 70%;
+        }
+    </style>
 </head>
 <body> 
 
-    <button class="sys-button ripple textBtn" color="accent">
-        <i class="fa-solid fa-home icon"></i> Home
-    </button>
-    <button class="sys-button ripple outline rounded" color="olive">Accent</button>
-    <button class="sys-button ripple outline" color="alert">Accent</button>
-    <button class="sys-button ripple outline" color="secondary">Accent</button>
-    <button class="sys-button ripple outline" color="accent">Accent</button>
-    <button class="sys-button ripple outline" color="accent">Accent</button>
+   <!-- <div class="d-flex">
+    <div class="sys-card horizental">
+        <div class="sys-card-head">
+            <div class="title-bar center">
+                <h4 class="title">Card Title</h4>
+                <p class="subTitle">Sub Title</p>
+            </div>
+        </div>
+        <div class="divider"></div>
+        <div class="sys-card-body">
+            <div class="card-content">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit pariatur odio dolore. Quia necessitatibus odio nisi? Deserunt reprehenderit, impedit inventore iste expedita assumenda repudiandae beatae quia laudantium laboriosam necessitatibus!
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="sys-card horizental">
+        <div class="sys-card-head">
+            <div class="title-bar center">
+                <h4 class="title">UX Support</h4>
+                <p class="subTitle">Based on Figma</p>
+            </div>
+        </div>
+        <div class="sys-card-body">
+            <div class="card-content">
+               
+            </div>
+        </div>
+        <div class="sys-card-action">
+            <img src="Vector.png" alt="" class="customIcon">
+        </div>
+    </div>
+    <div class="sys-card">
+        <div class="sys-card-head">
+            <i class="fa-solid fa-home"></i>
+            <div class="title-bar center">
+                <h4 class="title">Card Title</h4>
+                <p class="subTitle">Sub Title</p>
+            </div>
+            <button type="button" class="sys-button ripple">
+                <i class="fa-solid fa-star icon"></i>
+            </button>
+        </div>
+       
+        <div class="sys-card-body">
+            <img src="https://clicxy.com/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" alt="">
+            <div class="card-content">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit pariatur odio dolore. Quia necessitatibus odio nisi? Deserunt reprehenderit, impedit inventore iste expedita assumenda repudiandae beatae quia laudantium laboriosam necessitatibus!
+                </p>
+            </div>
+        </div>
+        <div class="sys-card-action">
+            <a href="#" class="sys-button ripple outline" color="error">
+             <i class="fa-solid fa-cancel"></i>   Cancel
+            </a>
+            <a href="#" class="sys-button ripple " color="olive">
+                <i class="fa-solid fa-check"></i>  Approve
+            </a>
+        </div>
+    </div>
+    <div class="sys-card">
+        <div class="sys-card-head">
+            <i class="fa-solid fa-home"></i>
+            <div class="title-bar center">
+                <h4 class="title">Card Title</h4>
+                <p class="subTitle">Sub Title</p>
+            </div>
+            <button type="button" class="sys-button ripple">
+                <i class="fa-solid fa-star icon"></i>
+            </button>
+        </div>
+        <div class="sys-card-body">
+            <img src="https://clicxy.com/wp-content/uploads/2016/04/dummy-post-horisontal.jpg" alt="">
+            <div class="card-content">
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id reprehenderit pariatur odio dolore. Quia necessitatibus odio nisi? Deserunt reprehenderit, impedit inventore iste expedita assumenda repudiandae beatae quia laudantium laboriosam necessitatibus!
+                </p>
+            </div>
+        </div>
+        <div class="sys-card-action">
+            <a href="#" class="sys-button ripple outline" color="error">
+             <i class="fa-solid fa-cancel"></i>   Cancel
+            </a>
+            <a href="#" class="sys-button ripple " color="olive">
+                <i class="fa-solid fa-check"></i>  Approve
+            </a>
+        </div>
+    </div>
+   </div> -->
 
+
+   <div class="d-flex align-i-center justify-c-center mt-3">
+    <header>
+        <div class="sys-container">
+            <div class="sys-grid  align-i-center justify-c-between">
+                <div class="col-md-4">
+                    <div class="sys-logo">
+                        <h1 class="title">SYS DESIGN</h1>
+                        <p class="sub-title">New gen. frontend library</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="">
+                        <ul class="sys-menu">
+                            <li>
+                                <a href="">
+                                <i class="fa-solid fa-home"></i>Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">Documentation</a>
+                            </li>
+                            <li>
+                                <a href="">Component</a>
+                            </li>
+                            <li>
+                                <a href="">Showcase</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </header>
+   <div class="social-media d-flex">
+        <button class="sys-button ripple rounded">
+            <i class="fa-brands fa-discord text-accent-90"></i>
+        </button>
+        <button class="sys-button ripple rounded">
+            <i class="fa-brands fa-npm text-error-90"></i>
+        </button>
+        <button class="sys-button ripple rounded">
+            <i class="fa-brands fa-git text-secondary-90"></i>
+        </button>
+   </div>
+   </div>
 </body>
 </html>

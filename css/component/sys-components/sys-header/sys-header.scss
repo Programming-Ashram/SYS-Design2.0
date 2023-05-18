@@ -1,22 +1,48 @@
 @use '../../../utilites/spacing/sys-utilities';
+@use '../../../variables/variable';
 
-header.sys-header{
-    .sys-grid{
-        align-items: center;
-    }
-}
-
-ul.sys-navbar{
-    display: flex;
-    list-style-type: none;
-    align-items: center;
-    li{
-        display: inline-block;
-        margin-right: 1rem;
-        a{ 
-            
-            font-size: 1.2rem;
-            text-decoration: none;
+header{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 0 1px 3px #80808078;
+    .sys-logoIcon{
+        img{
+            width: 90px;
         }
+    }
+    .sys-logo{
+        .title{
+            font-size: 1rem;
+        }
+        .sub-title{
+            font-size: 0.8rem;
+            color: gray;
+        }
+    }
+    .sys-menu{
+        display: flex;
+        gap: 10px 15px;
+        list-style: none;
+        align-items: center;
+        a{
+            text-decoration: none;
+            display: inline-block;
+            color: black;
+            display: flex;
+            align-items: center;
+            gap: 0px 8px;
+
+            i{
+                font-size: 0.8rem;
+            }
+        }
+
+        &.vertical{
+            display: block;
+            li{
+                margin-bottom: 1rem;
+            }
+        }
+       
     }
 }
