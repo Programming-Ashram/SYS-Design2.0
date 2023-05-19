@@ -20,7 +20,10 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
     font-weight: 300;
     color: variable.$secondary-75;
 }
-
+// List 
+.no-list-style{
+    list-style: none;
+}
 
 // text initialization
 .caps{
@@ -43,6 +46,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
 }
 
 // text decorationwWW
+.no-decoration{
+    text-decoration: none;
+}
 .text-underline{
     text-decoration: underline;
 }
@@ -73,8 +79,6 @@ p{
 
 ol, ul, dl{
     padding-left: 2rem;
-    margin-bottom: 1rem;
-    line-height: 1.3;
 }
 
 // DISPLAY FONTS SIZES
